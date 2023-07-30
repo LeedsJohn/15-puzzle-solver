@@ -1,0 +1,4 @@
+(executable
+ (public_name fifteen_puzzle)
+ (name main)
+ (libraries core fifteen_puzzle))

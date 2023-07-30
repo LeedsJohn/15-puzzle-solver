@@ -1,0 +1,6 @@
+(library
+ (name fifteen_puzzle)
+ (libraries core)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test ppx_assert ppx_jane)))
