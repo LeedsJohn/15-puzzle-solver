@@ -6,7 +6,7 @@ open Fifteen_puzzle
 let () = print_endline ""
 
 let () =
-  let num_trials = 1000 in
+  let num_trials = 100 in
   let min', max', total =
     List.fold (List.range 0 num_trials) ~init:(Int.max_value, 0, 0)
       ~f:(fun (min', max', total) _ ->
